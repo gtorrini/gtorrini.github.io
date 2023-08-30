@@ -90,7 +90,7 @@ dwarf AGNs and measuring their distance from the center of the dwarf galaxy.
 </p>
 
 <figure>
-    <img class="fig-img" src="https://cfn-live-content-bucket-iop-org.s3.amazonaws.com/journals/2041-8205/857/2/L22/revision3/apjlaabc0af2_hr.jpg?AWSAccessKeyId=AKIAYDKQL6LTV7YY2HIK&Expires=1692912267&Signature=YvHALZ7Z0NeKqScCyP6HDQKRvik%3D">
+    <img class="fig-img" src="images/tremmel-wandering.jpg">
     <figcaption>
         Supermassive black holes (white dots) in three Milky Way-sized galaxies evolved with the Romulus simulation.</br>
         <i>Credits:</i> Tremmel M., Governato F., Volonteri M., Pontzen A., Quinn T. R., 2018, The Astrophysical Journal Letters 2018, 857, L22
