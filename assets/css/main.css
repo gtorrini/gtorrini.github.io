@@ -3826,3 +3826,10 @@ figcaption {
 	margin: auto;
 	display: block;
 }
+
+/* 404 Page */
+.error {
+	background-image: none;
+	text-align: center;
+	background-color: #000000;
+}
