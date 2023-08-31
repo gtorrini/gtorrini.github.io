@@ -3348,9 +3348,9 @@ body {
 
 		@media screen and (max-width: 736px) {
 
-			#nav {
+/*			#nav {
 				display: none;
-			}
+			}*/
 
 				#nav + #main {
 					padding-top: 0;
