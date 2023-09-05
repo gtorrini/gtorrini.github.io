@@ -3387,13 +3387,13 @@ body {
 		}
 
 		/* Fix nav bar width for small screens */
-/*		@media screen and (max-width: 480px) {
+		@media screen and (max-width: 480px) {
 			#nav {
-				max-width: calc(100% - 3em);
+				max-width: calc(100% - 2em);
 			}
 		}
 
-		@media screen and (max-width: 360px) {
+		/*@media screen and (max-width: 360px) {
 			#nav {
 				max-width: calc(100% - 2em);
 			}
