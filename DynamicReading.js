@@ -182,37 +182,49 @@ telescope to gradually degrade.
 `;
 
 // Inner HTML for abstract style
-const cosmosAbstract = `Multi-wavelength searches for dwarf active galactic nuclei (AGNs) are fundamentally limited by
-their low accretion luminosities. Many methods to identify AGNs in massive galaxies are prone to
-confusion with other sources or require costly deep surveys. Optical variability does not suffer from
-the same degeneracies and makes efficient use of high-cadence photometry. We used imaging data
-from the Dark Energy Survey (DES) to select optically variable sources in the Cosmic Evolutions
-Survey (COSMOS) field. We searched for x-ray detections in other COSMOS catalogs, estimated stellar
-masses with spectral energy distribution (SED) fitting, and estimated black hole (BH) masses using the
-characteristic variability timescale from Burke et al. (2021a). Using optical variability selection alone,
-we identified 226 AGN candidates at <i>z</i> ≤ 3.75. We selected 14 dwarf AGN candidates at <i>z</i> ≤ 2.90 based
-on their optical variability, x-ray detections, and stellar mass. We found one dwarf AGN candidate with
-a lower <i>M<sub>BH</sub></i> limit in the intermediate mass range (∼ 100 − 10<sup>4</sup> M<sub>⊙</sub>), but we required further measurements for better
-constraints. Overall, ∼ 50% of our variability-selected AGN candidates spatially coincided with sources
-in several COSMOS AGN catalogs, suggesting that our method could effectively target sources
-for x-ray or optical spectroscopic follow-up.`;
+const cosmosAbstract = `
+<p class="blurb">
+Multi-wavelength searches for dwarf active galactic nuclei (AGNs) are fundamentally
+limited by their low accretion luminosities. Many methods to identify AGNs in massive galaxies are prone to
+confusion with other sources or require costly deep surveys. Optical variability does not suffer from the same
+degeneracies and makes efficient use of high-cadence photometry. We used imaging data from the Dark Energy
+Survey (DES) to select optically variable sources in the Cosmic Evolutions Survey (COSMOS) field. We searched
+for x-ray detections in other COSMOS catalogs, estimated stellar masses with spectral energy distribution (SED)
+fitting, and estimated black hole (BH) masses using the characteristic variability timescale from Burke et al.
+(2021a). Using optical variability selection alone, we identified 226 AGN candidates at <i>z</i> ≤ 3.75. We
+selected 14 dwarf AGN candidates at <i>z</i> ≤ 2.90 based on their optical variability, x-ray detections, and
+stellar mass. We found one dwarf AGN candidate with a lower <i>M<sub>BH</sub></i> limit in the intermediate mass
+range (∼ 100 − 10<sup>4</sup> M<sub>⊙</sub>), but we required further measurements for better constraints. Overall,
+∼ 50% of our variability-selected AGN candidates spatially coincided with sources in several COSMOS AGN catalogs,
+suggesting that our method could effectively target sources for x-ray or optical spectroscopic follow-up.
+</p>
+`;
 
-const offsetAbstract = `Dwarf galaxies possess more pristine merger and accretion histories than massive ones, making them ideal search environments
-for "seed" intermediate mass black holes (IMBH, <i>M<sub>BH</sub></i> ∼ 100 − 10<sup>4</sup> M<sub>⊙</sub>). Due to tidal stripping or recoil during mergers,
-a significant fraction of IMBHs could be off-nuclear "wanderers". However, such objects prove elusive targets in
-in the optical domain, where emission-line diagnostics from single-fiber spectroscopic surveys are biased against off-nuclear, low-luminosity, 
-dust obscured, or star formation-dominated sources. Optical variability searches are not biased against off-nuclear sources, and have already
-proven successful with detecting wandering SMBHs (e.g. Ward et al. 2021). We measured the offset distribution of optical variability-selected 
-dwarf AGNs in the Dark Energy Survey (DES) Wide-field Survey. To isolate variable point sources, we search for offset AGN candidates
-using DES difference images. Our pipeline was a modified version of the DES pipeline for detecting transients (Burke et al. 2020, Kessler et al. 2015). 
-First, we perform source detection on a template image, selecting for known galaxies in the NASA-Sloan Atlas (NSA). Using data from a
-single season, we co-added as many high-fidelity difference images as possible for the same CCD. Next, we performed source detection on the co-add.
-Any sources detected within the 90% Petrosian light radius of an NSA-identified galaxy were selected for photometric analysis. Using a 2.5” radius circle 
-centered on the source, we perform aperture photometry on each difference image frame of the co-add. In order to confirm AGN-like variability, 
-we constructed light curves and applied the maximum-likelihood estimator from Shen et al. 2019. We did not find a statistically significant
-fraction of spatially offset AGN candidates.`;
+const offsetAbstract = `
+<p class="blurb">
+Dwarf galaxies possess more pristine merger and accretion histories than massive ones,
+making them ideal search environments for "seed" intermediate mass black holes (IMBH, <i>M<sub>BH</sub></i> ∼ 
+100 − 10<sup>4</sup> M<sub>⊙</sub>). Due to tidal stripping or recoil during mergers, a significant fraction of
+IMBHs could be off-nuclear "wanderers". However, such objects prove elusive targets in the optical domain,
+where emission-line diagnostics from single-fiber spectroscopic surveys are biased against off-nuclear, low-luminosity, 
+dust obscured, or star formation-dominated sources. Optical variability searches are not biased against off-nuclear
+sources, and have already proven successful with detecting wandering SMBHs (e.g. Ward et al. 2021). We measured
+the offset distribution of optical variability-selected dwarf AGNs in the Dark Energy Survey (DES) Wide-field 
+Survey. To isolate variable point sources, we search for offset AGN candidates using DES difference images. Our
+pipeline was a modified version of the DES pipeline for detecting transients (Burke et al. 2020, Kessler et al.
+2015). First, we perform source detection on a template image, selecting for known galaxies in the NASA-Sloan
+Atlas (NSA). Using data from a single season, we co-added as many high-fidelity difference images as possible for
+the same CCD. Next, we performed source detection on the co-add. Any sources detected within the 90% Petrosian light
+radius of an NSA-identified galaxy were selected for photometric analysis. Using a 2.5” radius circle centered on
+the source, we perform aperture photometry on each difference image frame of the co-add. In order to confirm AGN-like
+variability, we constructed light curves and applied the maximum-likelihood estimator from Shen et al. 2019. We did
+not find a statistically significant fraction of spatially offset AGN candidates.
+</p>
+`;
 
-const veritasAbstract = `The Very Energetic Radiation Imaging Telescope Array System (VERITAS) observes
+const veritasAbstract = `
+<p class="blurb">
+The Very Energetic Radiation Imaging Telescope Array System (VERITAS) observes
 astronomical sources emitting γ-rays in the energy range from 85 GeV to 30 TeV. VERITAS
 can detect a point-like source with 1% of the Crab Nebula flux in a 25-hour long exposure.
 From 2012 to 2019, VERITAS observed the Geminga supernova remnant for 93
@@ -229,7 +241,9 @@ regions of the sky. The MRM algorithm estimates the background by matching obser
 from different sources with similar characteristics. We optimized the algorithm by studying
 how parameters such as γ-ray shower shape, elevation, azimuth, and season affected the
 success of matches. The improved version of the MRM will enable VERITAS to accurately
-image spatially extended sources.`;
+image spatially extended sources.
+</p>
+`;
 
 // Functions to changer inner HTML
 function explainLikeFive() {
