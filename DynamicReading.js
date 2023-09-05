@@ -16,7 +16,7 @@ after the Big Bang. However, they aren't sure how these black holes grew so rapi
 </p>
 
 <figure>
-    <img class="fig-img" src="images/agn-anatomy.jpg">
+    <img class="fig-img" src="images/agn-anatomy.jpg" alt="AGN anatomy">
     <figcaption>
         Anatomy of an active galactic nucleus, or AGN. </br>
         <i>Credit:</i> Sophia Dagnello, NRAO/AUI/NSF
@@ -42,7 +42,7 @@ AGNs.
 </p>
 
 <figure>
-    <img class="fig-img" src="images/cosmos-hst.jpg">
+    <img class="fig-img" src="images/cosmos-hst.jpg" alt="COSMOS field">
     <figcaption>
         A comparison of the wide-area COSMOS field to the full moon and other Hubble Space Telescope survey fields.</br>
         <i>Credit:</i> Cosmic Evolutions Survey
@@ -90,7 +90,7 @@ dwarf AGNs and measuring their distance from the center of the dwarf galaxy.
 </p>
 
 <figure>
-    <img class="fig-img" src="images/tremmel-wandering.jpg">
+    <img class="fig-img" src="images/tremmel-wandering.jpg" alt="Wandering black holes">
     <figcaption>
         Supermassive black holes (white dots) in three Milky Way-sized galaxies evolved with the Romulus simulation.</br>
         <i>Credits:</i> Tremmel M., Governato F., Volonteri M., Pontzen A., Quinn T. R., 2018, The Astrophysical Journal Letters 2018, 857, L22
@@ -157,7 +157,7 @@ nebula), where the source area almost fills up the telescope's field of view.
 </p>
 
 <figure>
-    <img class="fig-img" src="images/cosmic-ray-subtraction.png">
+    <img class="fig-img" src="images/cosmic-ray-subtraction.png" alt="Cosmic ray background subtraction">
     <figcaption>
         Traditional cosmic-ray background subtraction methods when applied to small source areas 
         like stars (left) and spatially extended sources (right).</br>
