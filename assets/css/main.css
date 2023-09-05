@@ -3355,8 +3355,9 @@ body {
 					font-size: 0.9em;
 				}
 
-		/* Only display first li and icon on small screens */
+		/* Generic responsive menu */
 		@media screen and (max-width: 736px) {
+			/* Only display first li and icon on small screens */
 			#nav ul.topnav li:not(:first-child) {
 				display: none;
 			}
@@ -3365,10 +3366,8 @@ body {
 				float: right;
 				display: inline-block;
 			}
-		}
 
-		/* Display other li as dropdown in icon */
-		@media screen and (max-width: 736px) {
+			/* Display other li as dropdown in icon */
 			#nav ul.topnav.responsive {
 				position: relative;
 			}
@@ -3380,6 +3379,62 @@ body {
 				}
 
 				#nav ul.topnav.responsive li {
+					float: none;
+					display: block;
+					text-align: left;
+				}
+		}
+
+		/* Responsive menu for research page */
+		@media screen and (max-width: 955px) {
+			#research-page #nav ul.topnav li:not(:first-child) {
+				display: none;
+			}
+
+			#research-page #nav ul.topnav li.icon {
+				float: right;
+				display: inline-block;
+			}
+
+			#research-page #nav ul.topnav.responsive {
+				position: relative;
+			}
+
+				#research-page #nav ul.topnav.responsive li.icon {
+					position: absolute;
+					right: 0;
+					top: 0;
+				}
+
+				#research-page #nav ul.topnav.responsive li {
+					float: none;
+					display: block;
+					text-align: left;
+				}
+		}
+
+		/* Responsive menu for outreach page */
+		@media screen and (max-width: 865px) {
+			#outreach-page #nav ul.topnav li:not(:first-child) {
+				display: none;
+			}
+
+			#outreach-page #nav ul.topnav li.icon {
+				float: right;
+				display: inline-block;
+			}
+
+			#outreach-page #nav ul.topnav.responsive {
+				position: relative;
+			}
+
+				#outreach-page #nav ul.topnav.responsive li.icon {
+					position: absolute;
+					right: 0;
+					top: 0;
+				}
+
+				#outreach-page #nav ul.topnav.responsive li {
 					float: none;
 					display: block;
 					text-align: left;
