@@ -33,7 +33,7 @@ form of visible light. If there's an intermediate-mass black hole in the AGN, we
 
 <p class="blurb">
 <b>What is COSMOS?</b> A variable visible light signal is one of several AGN signatures. Other 
-identification methods are biased against low-luminosity dwarf AGNs. The wide-area <a href="https://cosmos.astro.caltech.edu/">
+identification methods are biased against low-luminosity dwarf AGNs. The wide-area <a href="https://cosmos.astro.caltech.edu/" rel="nofollow">
 Cosmic Evolution Survey</a> (COSMOS) field has a large set of data from deep, multi-wavelength
 observations. Deep fields are regions of the sky that have been observed for long periods of time, 
 so COSMOS is a great search area for dim dwarf AGNs. Multi-wavelength data allows us to
@@ -50,7 +50,7 @@ AGNs.
 </figure>
 
 <p class="blurb">
-<b>What did you find?</b> We observed 31,196 total sources in the COSMOS field with the <a href="https://www.darkenergysurvey.org/">
+<b>What did you find?</b> We observed 31,196 total sources in the COSMOS field with the <a href="https://www.darkenergysurvey.org/" rel="nofollow">
 Dark Energy Survey</a> (DES) Camera. After filtering out stars and analyzing how the visible light signal
 changed over time, we identified galaxies with statistically significant variability. Using data from
 the COSMOS2020 catalog, we further identified variable galaxies with low mass estimates (<10 9.5 × 
@@ -101,7 +101,7 @@ dwarf AGNs and measuring their distance from the center of the dwarf galaxy.
 <b>How do you hunt for 'wanderers'?</b> One identification method uses the unique color fingerprint, or spectrum,
 of the accreting gas. But traditional spectroscopic instruments are biased against off-center sources
 since they only detect a small slice of the sky through a slit. Instead, we used data from the 
-<a href="https://www.darkenergysurvey.org/">Dark Energy Survey</a> Camera to identify dwarf AGN 
+<a href="https://www.darkenergysurvey.org/" rel="nofollow">Dark Energy Survey</a> Camera to identify dwarf AGN 
 candidates by their variable visible light signal. This camera has a field of view more than 4 times the apparent
 size of the full moon in the night sky-ideal for imaging dwarf AGN hiding away from the center of
 their galaxies.
@@ -166,7 +166,7 @@ nebula), where the source area almost fills up the telescope's field of view.
 </figure>
 
 <p class="blurb">
-<b>What did you find?</b> I worked with data from <a href="https://veritas.sao.arizona.edu/">VERITAS
+<b>What did you find?</b> I worked with data from <a href="https://veritas.sao.arizona.edu/" rel="nofollow">VERITAS
 </a> (the Very Energetic Radiation Imaging Telescope Array System) to optimize a different background
 removal method. The Matched Run Method (MRM) algorithm compares observations of gamma-ray sources
 (ON runs) with observation from a secondary field of view (OFF runs). The secondary field of view has 
