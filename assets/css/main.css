@@ -33,6 +33,19 @@ body {
 	line-height: 1;
 }
 
+html, body {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 2;
+	justify-content: flex-end;
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -355,6 +368,11 @@ body {
 
 	hr {
 		border-bottom-color: rgba(255, 255, 255, 0.35);
+	}
+
+	.contrast-text {
+		font-weight: bolder;
+		text-shadow: 0px 0px 10px black;
 	}
 
 /* Row */
