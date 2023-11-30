@@ -323,10 +323,6 @@ body {
 		text-align: left;
 	}
 
-	.align-center {
-		text-align: center;
-	}
-
 	.align-right {
 		text-align: right;
 	}
@@ -361,9 +357,9 @@ body {
 	}
 
 .contrast-text {
-/*	font-weight: bolder;*/
 	color: #636363;
-	margin: 0;
+	padding: 10px;
+	margin-bottom: 0;
 }
 
 .contrast-box {
@@ -371,10 +367,18 @@ body {
 	box-shadow: 0px 0px 7px black;
 	box-sizing: border-box;
 	border-radius: 0.15em;
-	padding-left: 0.4em;
-	padding-top: 0.2em;
-	padding-right: 0.4em;
-	padding-bottom: 0.2em;
+}
+
+header div.contrast-box {
+	max-width: 18em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media screen and (max-width: 720px) {
+	header div.contrast-box {
+		max-width: 14em;
+	}
 }
 
 /* Row */
@@ -3123,9 +3127,9 @@ body {
 		text-align: center;
 	}
 
-		#header h1 {
+/*		#header h1 {
 			margin: 0.5em 0 0.5em 0;
-		}
+		}*/
 
 		#header p {
 			font-size: 1.25em;
@@ -3174,7 +3178,7 @@ body {
 		@media screen and (max-width: 1280px) {
 
 			#header {
-				padding: 0.1em 4em 0.1em 4em ;
+				padding: 2em 4em 2em 4em ;
 			}
 
 				#header.alt {
@@ -3186,7 +3190,7 @@ body {
 		@media screen and (max-width: 980px) {
 
 			#header {
-				padding: 0.1em 3em 0.1em 3em ;
+				padding: 2em 3em 2em 3em ;
 			}
 
 				#header.alt {
@@ -3198,7 +3202,7 @@ body {
 		@media screen and (max-width: 736px) {
 
 			#header {
-				padding: 0.1em 2em 0.1em 2em ;
+				padding: 1em 2em 1em 2em ;
 			}
 
 				#header p {
@@ -3223,7 +3227,7 @@ body {
 		@media screen and (max-width: 480px) {
 
 			#header {
-				padding: 0.1em 1.5em 0.1em 1.5em ;
+				padding: 1em 1.5em 1em 1.5em ;
 			}
 
 				#header.alt {
@@ -3235,7 +3239,7 @@ body {
 		@media screen and (max-width: 360px) {
 
 			#header {
-				padding: 0.1em 1em 0.1em 1em ;
+				padding: 0.5em 1em 0.5em 1em ;
 			}
 
 				#header.alt {
@@ -3832,6 +3836,7 @@ body {
 		/*		width: calc(100% + 2em);*/
 		width: 100%;
 		margin: 0;
+		text-align: center;
 	}
 
 		/*		#footer > * {
@@ -3841,7 +3846,7 @@ body {
 
 		#footer .copyright {
 			width: 100%;
-			margin: 1em 0 0 0;
+			margin: 0;
 			font-size: 0.8em;
 			text-align: center;
 		}
@@ -3887,7 +3892,7 @@ body {
 		}
 	}
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 360px) {
 
 		#footer {
 			padding: 0.5em 1em 0.5em 1em;
