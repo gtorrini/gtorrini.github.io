@@ -261,3 +261,9 @@ function scientificAbstract() {
 // Add event listeners to the reading option buttons
 document.getElementById("eli5").addEventListener("click", explainLikeFive);
 document.getElementById("abstract").addEventListener("click", scientificAbstract);
+
+// On page load, select eli5 reading option by default
+window.addEventListener("load",
+    function () {
+        document.getElementById("eli5").click();
+    }, false);

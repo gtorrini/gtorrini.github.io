@@ -1,23 +1,12 @@
 @import url(fontawesome-all.min.css);
-@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
-
+@import 'https://fonts.googleapis.com/css?family=Sofia+Sans:300,400';
+@import 'https://fonts.googleapis.com/css?family=Sofia+Sans+Condensed:300,400';
 /*
 	Stellar by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-
-html, body, div, span, applet, object,
-iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
-pre, a, abbr, acronym, address, big, cite,
-code, del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var, b,
-u, i, center, dl, dt, dd, ol, ul, li, fieldset,
-form, label, legend, table, caption, tbody,
-tfoot, thead, tr, th, td, article, aside,
-canvas, details, embed, figure, figcaption,
-footer, header, hgroup, menu, nav, output, ruby,
-section, summary, time, mark, audio, video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -32,6 +21,19 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+}
+
+html, body {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 2;
+	justify-content: flex-end;
 }
 
 ol, ul {
@@ -127,7 +129,7 @@ body {
 	}
 
 	body, input, select, textarea {
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Sofia Sans", Helvetica, sans-serif;
 		font-size: 17pt;
 		font-weight: 300;
 		line-height: 1.65;
@@ -215,10 +217,11 @@ body {
 		}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 300;
+		font-weight: bold;
 		line-height: 1.5;
 		margin: 0 0 0.7em 0;
 		letter-spacing: -0.025em;
+		font-family: 'Sofia Sans Condensed', Helvetica, sans-serif;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -315,10 +318,6 @@ body {
 		text-align: left;
 	}
 
-	.align-center {
-		text-align: center;
-	}
-
 	.align-right {
 		text-align: right;
 	}
@@ -328,16 +327,16 @@ body {
 	}
 
 	a:hover {
-		color: #ffffff;
+		color: black;
 	}
 
 	strong, b {
 		color: #ffffff;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+/*	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
-	}
+	}*/
 
 	blockquote {
 		border-left-color: rgba(255, 255, 255, 0.35);
@@ -351,6 +350,31 @@ body {
 	hr {
 		border-bottom-color: rgba(255, 255, 255, 0.35);
 	}
+
+.contrast-text {
+	color: #636363;
+	padding: 10px;
+	margin-bottom: 0;
+}
+
+.contrast-box {
+	background-color: #FFFFFF;
+	box-shadow: 0px 0px 7px black;
+	box-sizing: border-box;
+	border-radius: 0.15em;
+}
+
+header div.contrast-box {
+	max-width: 18em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media screen and (max-width: 720px) {
+	header div.contrast-box {
+		max-width: 14em;
+	}
+}
 
 /* Row */
 
@@ -3098,9 +3122,9 @@ body {
 		text-align: center;
 	}
 
-		#header h1 {
-			margin: 0 0 0.25em 0;
-		}
+/*		#header h1 {
+			margin: 0.5em 0 0.5em 0;
+		}*/
 
 		#header p {
 			font-size: 1.25em;
@@ -3149,7 +3173,7 @@ body {
 		@media screen and (max-width: 1280px) {
 
 			#header {
-				padding: 0.1em 4em 0.1em 4em ;
+				padding: 2em 4em 2em 4em ;
 			}
 
 				#header.alt {
@@ -3161,7 +3185,7 @@ body {
 		@media screen and (max-width: 980px) {
 
 			#header {
-				padding: 0.1em 3em 0.1em 3em ;
+				padding: 2em 3em 2em 3em ;
 			}
 
 				#header.alt {
@@ -3173,7 +3197,7 @@ body {
 		@media screen and (max-width: 736px) {
 
 			#header {
-				padding: 0.1em 2em 0.1em 2em ;
+				padding: 1em 2em 1em 2em ;
 			}
 
 				#header p {
@@ -3198,7 +3222,7 @@ body {
 		@media screen and (max-width: 480px) {
 
 			#header {
-				padding: 0.1em 1.5em 0.1em 1.5em ;
+				padding: 1em 1.5em 1em 1.5em ;
 			}
 
 				#header.alt {
@@ -3210,7 +3234,7 @@ body {
 		@media screen and (max-width: 360px) {
 
 			#header {
-				padding: 0.1em 1em 0.1em 1em ;
+				padding: 0.5em 1em 0.5em 1em ;
 			}
 
 				#header.alt {
@@ -3820,7 +3844,8 @@ body {
 		padding: 1em 5em 1em 5em;
 		/*		width: calc(100% + 2em);*/
 		width: 100%;
-		margin: 0 0 3em 0;
+		margin: 0;
+		text-align: center;
 	}
 
 		/*		#footer > * {
@@ -3830,7 +3855,7 @@ body {
 
 		#footer .copyright {
 			width: 100%;
-			margin: 2em 0 2em 0;
+			margin: 0;
 			font-size: 0.8em;
 			text-align: center;
 		}
@@ -3847,14 +3872,14 @@ body {
 		#footer {
 			padding: 2em 3em 2em 3em;
 			display: block;
-			margin: 0 0 3em 0;
+			margin: 0;
 			width: 100%;
 		}
 
 			#footer > * {
 				width: 100%;
 				margin-left: 0;
-				margin-bottom: 3em;
+				margin-bottom: 0;
 			}
 
 			#footer .copyright {
@@ -3876,7 +3901,7 @@ body {
 		}
 	}
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 360px) {
 
 		#footer {
 			padding: 0.5em 1em 0.5em 1em;
@@ -3928,6 +3953,16 @@ body {
 		background-color: #000000;
 	}
 
+	/* Background text shadowing */
+	.bg-text {
+		text-shadow: 1px 1px 2px black;
+	}
+
+	.option-button {
+		padding: 0 1.5em;
+		margin: 0 0.75em;
+	}
+
 	/* Language Dropdown */
 	.dropdown {
 		float: left;
@@ -3960,4 +3995,3 @@ body {
 	.dropdown:hover .dropdown-content {
 		display: block;
 	}
-
